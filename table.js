@@ -17,19 +17,9 @@ function generate()
    Total = sessionStorage.getItem("Total")
 fin= Total-Discount
 Option =sessionStorage.getItem("Option")
-//console.log(Option);
+
 Gst = sessionStorage.getItem("Gst")
 
-// console.log(typeof Dates);
-// console.log(User);
-
-// function reverse_the_string(num) {
-//     return String(num.split("").reverse().join(""));
-// }
-
-// var dat = reverse_the_string(Dates)
-
-console.log(dat);
 
    document.getElementById("inv").innerText=Bill
    document.getElementById("dates").innerText=Dates
